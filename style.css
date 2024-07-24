@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:black;
+    color: white;
+}
+
+form,.weather{
+    width: 100%;
+    display: block;
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+form input[type=text]{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+}
+
+form input[type=text]:focus{
+    outline: 0px;
+    border-color: #ff521f;
+}
+
+ul{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    list-style: none;
+}
+
+ul li{
+    background-color: #333;
+    margin-top: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul li span{
+    color: #888;
+}
+
+#degree{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#city{
+    color: #ff521f;
+    font-size: 2rem;
+}
+
+#change_city{
+    margin: 1.2rem;
+    padding:10px 20px;
+    background-color: transparent;
+    border: 2px solid #888;
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+.info{
+    margin-top: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.info div h3{
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.info div .value{
+    font-size: larger;
+}
+
+.info div .value span{
+    font-size: small;
+    color: #888;
+}
