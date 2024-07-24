@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./4102326_cloud_sun_sunny_weather_icon.png">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <form style="display: block;">
+        <input type="text" placeholder="Search city..." />
+        <ul></ul>
+       
+    </form>
+
+    <div class="weather" style="display: none;">
+        <img id="weather_img" src="" alt=""/>
+        <h1 id="degree">25&deg;C</h1>
+        <h2 id="city">Bharatpur</h2>
+        <button id="change_city">Change city</button>
+        <div class="info">
+            <div>
+                <h3>WIND</h3>
+                <div id="wind_speed" class="value">2<span>km.h</span></div>
+            </div>
+            <div>
+                <h3>FEElS LIKE</h3>
+                <div id="feels_temp" class="value">2<span>km.h</span></div>
+            </div>
+            <div>
+                <h3>HUMIDITY</h3>
+                <div id="humidity_value" class="value">2<span>km.h</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" integrity="sha256-qXBd/EfAdjOA2FGrGAG+b3YBn2tn5A6bhz+LSgYD96k=" crossorigin="anonymous"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
